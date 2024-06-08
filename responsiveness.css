@@ -109,3 +109,29 @@
     display: none;
   }
 }
+
+@media (max-width: 425px) {
+  /* HOME */
+  .home__container {
+    flex-direction: column;
+  }
+
+  .home__picture {
+    order: 1;
+  }
+
+  /* SKILLS */
+  .skills__list {
+    row-gap: 1.6rem;
+  }
+
+  .skill {
+    height: 11.8rem;
+    width: 14.4rem;
+  }
+
+  /* PROJECTS */
+  .project__image {
+    width: 100%;
+  }
+}
