@@ -1,0 +1,111 @@
+@media (max-width: 768px) {
+  /* HOME, ABOUT ME, SKILLS, ACADEMIC, PROJECTS, CONTACT */
+  .container {
+    width: 100%;
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+  }
+
+  .section__title {
+    font-size: 2rem;
+  }
+
+  /* HEADER */
+  .header__navigation__list {
+    display: none;
+  }
+
+  /* HOME */
+  .home__container {
+    gap: 3.2rem;
+  }
+
+  .home__picture {
+    height: 14.6rem;
+  }
+
+  .home__content {
+    gap: .8rem;
+  }
+
+  .home__content__title {
+    font-size: 2rem;
+  }
+
+  .home__content__subtitle {
+    font-size: 1.6rem;
+  }
+
+  /* ABOUT ME */
+  .about-me {
+    padding: 3.2rem 0;
+  }
+
+  .about-me__content {
+    width: 100%;
+  }
+
+  /* SKILLS */
+  .skills {
+    margin-bottom: 0;
+  }
+
+  .skills__list {
+    row-gap: 3.2rem;
+  }
+
+  .skill {
+    height: 11.8rem;
+    width: 22.4rem;
+    padding: .8rem
+  }
+
+  .skill__icon {
+    height: 3.6rem;
+    width: 3.6rem;
+  }
+
+  /* ACADEMIC */
+  .academic__container {
+    padding: 3.2rem;
+  }
+  
+  .academic__courses__list {
+    row-gap: 3.2rem;
+  }
+
+  .academic__course__image {
+    height: 16rem;
+    width: 32rem;
+  }
+
+  .academic__course__title {
+    font-size: 1.4rem;
+  }
+
+  .academic__courser__subtitle {
+    font-size: 1.2rem;
+  }
+
+  /* PROJECTS */
+  .project {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .project__image {
+    height: auto;
+    width: calc(100% - 6.4rem);
+  }
+
+  /* CONTACT */
+  .contact__container {
+    margin: 0;
+    padding: 3.2rem;
+    flex-direction: column;
+  }
+
+  .contact__image {
+    display: none;
+  }
+}
