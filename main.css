@@ -9,14 +9,12 @@ body {
 
 /* HOME, ABOUT ME, SKILLS, ACADEMIC, PROJECTS, CONTACT */
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
-  box-sizing: border-box;
 }
 
 .section__title {
   font-size: 3.2rem;
-  margin: 0;
 }
 
 .about-me,
@@ -27,7 +25,7 @@ body {
 
 /* HEADER */
 .header__container {
-  padding: 3.2rem 0;
+  padding: 3.2rem;
   display: flex;
   justify-content: space-between;
 }
@@ -51,6 +49,7 @@ body {
 
 /* HOME */
 .home__container {
+  padding: 3.2rem;
   display: flex;
   align-items: center;
 }
@@ -87,11 +86,15 @@ body {
 
 /* ABOUT ME */
 .about-me {
-  padding: 6.4rem;
+  padding: 6.4rem 3.2rem;
 }
 
 .about-me__content {
   width: 60%;
+}
+
+.about-me__paragraph {
+  margin: 1.6rem 0;
 }
 
 /* SKILLS */
@@ -111,8 +114,6 @@ body {
 
 .skills__list {
   width: 100%;
-  margin: 0;
-  padding: 0;
   display: flex;
   gap: 1.6rem;
   flex-wrap: wrap;
@@ -122,7 +123,7 @@ body {
 .skill {
   background-color: #FFF;
   height: 15.8rem;
-  width: 15.8rem;
+  min-width: 15.8rem;
   padding: .8rem;
   display: flex;
   flex-direction: column;
@@ -147,8 +148,7 @@ body {
 }
 
 .academic__courses__list {
-  margin: 3.2rem 0 0 0;
-  padding: 0;
+  margin-top: 3.2rem;
   display: flex;
   gap: 1.6rem;
   flex-wrap: wrap;
@@ -166,10 +166,6 @@ body {
 
 .academic__course__title {
   margin: .8rem 0;
-}
-
-.academic__course__subtitle {
-  margin: 0;
 }
 
 /* PROJECTS */
@@ -191,11 +187,6 @@ body {
   display: flex;
   gap: .8rem;
   flex-direction: column;
-}
-
-.project__title,
-.project__subtitle {
-  margin: 0;
 }
 
 .project__image {
@@ -238,10 +229,6 @@ body {
   justify-content: space-between;
 }
 
-.contact__text {
-  margin: 0;
-}
-
 .contact__form__input,
 .contact__form__textarea,
 .contact__form__button {
@@ -273,8 +260,5 @@ body {
 /* FOOTER */
 .footer {
   text-align: center;
-}
-
-.footer__text {
-  margin-top: 0;
+  padding-bottom: 3.2rem;
 }

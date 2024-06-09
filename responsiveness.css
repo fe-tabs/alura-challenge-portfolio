@@ -1,13 +1,9 @@
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   /* HOME, ABOUT ME, SKILLS, ACADEMIC, PROJECTS, CONTACT */
   .container {
     width: 100%;
     padding-left: 3.2rem;
     padding-right: 3.2rem;
-  }
-
-  .section__title {
-    font-size: 2rem;
   }
 
   /* HEADER */
@@ -16,12 +12,49 @@
   }
 
   /* HOME */
-  .home__container {
-    gap: 3.2rem;
+  .home__content__title {
+    font-size: 3.2rem;
+  }
+
+  .home__content__subtitle {
+    font-size: 2rem;
   }
 
   .home__picture {
-    height: 14.6rem;
+    height: 200px;
+    width: 200px;
+  }
+
+  /* ABOUT ME */
+  .about-me {
+    padding: 3.2rem 0;
+  }
+
+  /* PROJECTS */
+  .project {
+    flex-wrap: wrap;
+  }
+
+  /* CONTACT */
+  .contact__container {
+    margin: 0;
+    padding: 3.2rem;
+    flex-direction: column;
+  }
+  
+  .contact__image {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .section__title {
+    font-size: 2rem;
+  }
+
+  /* HOME */
+  .home__container {
+    gap: 3.2rem;
   }
 
   .home__content {
@@ -37,10 +70,6 @@
   }
 
   /* ABOUT ME */
-  .about-me {
-    padding: 3.2rem 0;
-  }
-
   .about-me__content {
     width: 100%;
   }
@@ -55,8 +84,6 @@
   }
 
   .skill {
-    height: 11.8rem;
-    width: 22.4rem;
     padding: .8rem
   }
 
@@ -96,17 +123,6 @@
   .project__image {
     height: auto;
     width: calc(100% - 6.4rem);
-  }
-
-  /* CONTACT */
-  .contact__container {
-    margin: 0;
-    padding: 3.2rem;
-    flex-direction: column;
-  }
-
-  .contact__image {
-    display: none;
   }
 }
 
